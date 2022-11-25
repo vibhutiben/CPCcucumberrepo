@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7453837700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "user should able click the designermenu",
+        "description": "",
+        "id": "user-should-able-to-access-all-designer-products;user-should-able-click-the-designermenu",
+        "after": [
+          {
+            "result": {
+              "duration": 312924900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 289895200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": user is on homepage",
+            "match": {
+              "location": "MyStepdefs.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201074000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": user is click on designer",
+            "match": {
+              "location": "MyStepdefs.userIsClickOnDesigner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 500176200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": user should able to see designer products",
+            "match": {
+              "location": "MyStepdefs.userShouldAbleToSeeDesignerProducts()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "user should able to access all designer products",
+    "description": "",
+    "id": "user-should-able-to-access-all-designer-products",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Features/designer.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@designer"
+      }
+    ]
+  }
+]
